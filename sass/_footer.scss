@@ -1,0 +1,18 @@
+@import 'vars';
+@import'mixin';
+
+.footer-section {
+    background-color: rgb(37, 37, 37);
+    padding: 50px;
+    border: 10px dotted rgb(206, 21, 76);
+    .footer {
+        @include important-text;
+        background-color: aquamarine;
+        color:black;
+    }
+
+    .footer-perah {
+        @include important-text;
+        background-color: plum;
+    }
+}
